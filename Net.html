@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+ 
+<html>
+	<head>
+		<title>Portfolio Sana Siddiqui</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/pictures.css" />
+		 <!-- Link the CSS file -->
+		 <link rel="stylesheet" href="stylePotfolio.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Dot Net MVC 5<br />
+	</h1>
+	  <b>Employee Management System with MVC5</b> <br />
+
+ 
+<div style="color:yellow;font-size:x-large;"> 
+	create 2 pages using ASP.NET / SQL Server</br>
+<div style="text-align: left;">1.	1st screen with a form for managing profiles (Add New/Update/Remove) in grid format.</br>
+	The form will have the following details:</br>
+	a.	First Name</br>
+	b.	Last Name</br>
+	c.	Date of Birth</br>
+	d.	Phone Number</br>
+	e.	Email Id</br>
+	
+	2.	2nd Screen should manage the tasks of the selected profile (in grid format)</br>
+	</div>
+	The user of the 2nd Screen, should be able to (Add/Remove/Update/Retrieve) </br>
+	Tasks for any profile. Any profile can have multiple tasks</br>
+	
+	Notes:</br>
+	<div style="text-align: left;">
+	a.	Use the tables above to create 2 tables in Database,</br>
+	 and maintain the necessary relations between the tables</br>
+	b.	Use stored procedures only (no direct query)</br>
+	c.	Using MVC5.</br>
+	d.	No need for any styling or special HTML formatting. </br>
+	The purpose of this Pilot task is to check the coding ability and your programming structure.</br>
+	e.	I’d like also to know how long (in hours) you need to complete such task in average.</br>
+	f.	C# is the preferable language.</br>
+	g.	Use n-tier structure, with classes to connect to DB. Again, using MVC is a must.</br>
+	h.	Proper Error Handling must be applied in all functions and procedures. </br>
+	i.	Entity Frame work is not permitted.</br>
+	</div>
+		<br />	<p> </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+</div>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">MVC5 Project</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="java.html">Java</a></li>
+							<li class="active"><a href="oops.html">OOPS</a></li>
+                        	<li class="active"><a href="Net.html">.net MVC5</a></li>
+							<li class="active"><a href="React.html">React js</a></li>
+							<li class="active"><a href="PHP.html">PHP</a></li>
+							<li class="active"><a href="angular.html">Angular</a></li>
+
+						
+						
+						</ul>
+						<ul class="icons">
+						 	<li><a href="https://www.linkedin.com/in/sana-cs/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/SanaUber" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main"class="responsive-container">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date" id="current-date"></span>
+									<h2> Employee MANGEMENT SYSTEM</h2>
+									
+									<div style="font-family:cursive; color:red"> with .Net MVC5 Frontend </br>
+										<ul class="icons">
+											<li><a href="https://github.com/SanaUber/CRUD_MVC5_Emp_task" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+								   </ul>	 Table Structures</br>
+										 <div style="display: block;"> 
+										  (i)ProfileTable
+										 <img src="images/profile.jpg" alt="" />
+										 (i)ProfileTable
+										 <img src="images/tasks.jpg" alt="" />
+								
+										</div>
+									Small Data at Server</br>
+								
+								</div>
+								</header>
+							<video controls width="640" height="360">
+        <source src="images/CRUDEmp_Task_MVC5.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+								<div style="height: 80px;"></div>
+								 
+							</article>
+
+						<!-- Posts -->
+						
+					 
+					</div>
+
+		 
+	 
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				// Create a new Date object
+				var date = new Date();
+		
+				// Define an array for month names
+				var months = [
+					"January", "February", "March", "April", "May", "June",
+					"July", "August", "September", "October", "November", "December"
+				];
+		
+				// Get the current day, month, and year
+				var day = date.getDate();
+				var month = months[date.getMonth()];
+				var year = date.getFullYear();
+		
+				// Format the date as "Month Day, Year"
+				var formattedDate = month + " " + day + ", " + year;
+		
+				// Display the date in the HTML element with id="current-date"
+				document.getElementById("current-date").innerText = formattedDate;
+			</script>
+	</body>
+</html>

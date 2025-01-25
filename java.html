@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+ 
+<html>
+	<head>
+		<title>Portfolio Sana Siddiqui</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	 <!-- Link the CSS file -->
+	 <link rel="stylesheet" href="stylePotfolio.css">
+		<link rel="stylesheet" href="assets/css/pictures.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>JAVA<br />
+	</h1>
+	  <b>User Management System with Angular and an API Backend</b> <br />
+
+ 
+<div style="color:yellow;font-size:x-large;"> 
+	1. Backend:   - Create an API for managing users (add, view, update, delete). Delete means Inactive.<br />
+	
+	   - Each user should have: ID, Name, Email, Role (dropdown), and Status (Active/Inactive).<br />
+	
+	   - Validate fields (e.g., Name, Role is required, Email must be valid).<br />
+	
+	   <br /><br />
+	   <br />
+	
+	2.  Frontend (Angular): - Create a single page application with multiple components.<br />
+	
+	   - Show a list of users with search and filter options.<br />
+	
+	   - Add a form to create and edit users.<br />
+	
+	   - Validate the form (e.g., required fields, valid email).<br />
+	
+	   - Pagination and Sorting is required.	<br />	<p> </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+</div>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Angular Project</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="java.html">Java</a></li>
+							<li class="active"><a href="oops.html">OOPS</a></li>
+                        	<li class="active"><a href="Net.html">.net MVC5</a></li>
+							<li class="active"><a href="React.html">React js</a></li>
+							<li class="active"><a href="PHP.html">PHP</a></li>
+							<li class="active"><a href="angular.html">Angular</a></li>
+
+						
+						</ul>
+						<ul class="icons">
+						 	<li><a href="https://www.linkedin.com/in/sana-cs/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/SanaUber" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date" id="current-date"></span>
+									<h2> USER MANGEMENT SYSTEM</h2>
+									<div style="font-family:cursive; color:red"> with Angular 17+ Frontend </br>
+										and Express.js  BackendAPI</br>
+									Small Data at Server</br>
+								</div>
+								</header>
+							<video controls width="640" height="360">
+        <source src="images/usermgmtappSlow.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+								<div style="height: 800px;"></div>
+								 
+							</article>
+
+						<!-- Posts -->
+						
+					 
+					</div>
+
+		 
+	 
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				// Create a new Date object
+				var date = new Date();
+		
+				// Define an array for month names
+				var months = [
+					"January", "February", "March", "April", "May", "June",
+					"July", "August", "September", "October", "November", "December"
+				];
+		
+				// Get the current day, month, and year
+				var day = date.getDate();
+				var month = months[date.getMonth()];
+				var year = date.getFullYear();
+		
+				// Format the date as "Month Day, Year"
+				var formattedDate = month + " " + day + ", " + year;
+		
+				// Display the date in the HTML element with id="current-date"
+				document.getElementById("current-date").innerText = formattedDate;
+			</script>
+	</body>
+</html>
