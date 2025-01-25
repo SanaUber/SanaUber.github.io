@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+ 
+<html>
+	<head>
+		<title>Portfolio Sana Siddiqui</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/pictures.css" />
+		 <!-- Link the CSS file -->
+		 <link rel="stylesheet" href="stylePotfolio.css">
+	
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>PHP<br />
+	</h1>
+	  <b> <u><i>Two</i></u> Projects <u><i><a href="#empMgmnt">Employee Mangement with mysql</a></i></u> and
+		 <u><i><a href="#calculateAge">Calculate Age of Employee and Store Data in Database</a></i></u> PHP </b> <br />
+
+ 
+<div style="color:yellow;font-size:x-large;"> 
+
+
+	1.  Frontend & Backend(PHP and mysql): - Develop a PHP script to calculate the age</br>
+	 of an employee based on their date of birth and store the calculated age</br>
+	 along with other employee details in a database.<br />
+	
+	<br /><br />
+	<br />
+ 
+ 
+	
+	2. Frontend & Backend(PHP and mysql):   - Employee management：</br>
+	- has Firstname<br />
+	- has Lastnamae<br />
+	- has Department<br />
+	- has Designation<br />
+	- has Phone no.<br />
+
+
+	 
+	
+	<p> </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+</div>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">PHP Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="java.html">Java</a></li>
+							<li class="active"><a href="oops.html">OOPS</a></li>
+                        	<li class="active"><a href="Net.html">.net MVC5</a></li>
+							<li class="active"><a href="React.html">React js</a></li>
+							<li class="active"><a href="PHP.html">PHP</a></li>
+							<li class="active"><a href="angular.html">Angular</a></li>
+
+						
+						</ul>
+						<ul class="icons">
+						 	<li><a href="https://www.linkedin.com/in/sana-cs/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/SanaUber" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+
+						<article class="post featured">
+							<header class="major" id="calculateAge">
+								<span class="date" id="current-date"></span>
+								<h2> Implementing PHP script to calculate the age</h2>
+								<div style="font-family:cursive; color:red"> with PHP Frontend </br>
+									This project is a simple PHP application that calculates age based on their date of birth .</br>
+				 </br>
+ 
+							</div>
+							<ul class="icons">
+								<li><a href="https://github.com/SanaUber/phptageCalculation" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+					   </ul>
+							</header>
+						<video controls width="640" height="360">
+	<source src="images/age calculation.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+
+
+
+							<div style="height: 80px;"></div>
+							 
+						</article>
+
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major" id="empMgmnt">
+									<span class="date" id="current-date"></span>
+									<h2> Employee Mangement with mysql all CRUD operations</h2>
+									Desktop Application</br>
+									<div style="font-family:cursive; color:red"> with PHP Frontend </br>
+									  Data at MYSQL Server</br>
+								</div>	<ul class="icons">
+									<li><a href="https://github.com/SanaUber/phpEmployee" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+						   </ul>
+								</header>
+							<video controls width="640" height="360">
+        <source src="images/CRUD_empDetails.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+	
+								<div style="height: 80px;"></div>
+								 
+							</article>
+						
+						<!-- Posts -->
+						
+					 
+					</div>
+
+		 
+	 
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				// Create a new Date object
+				var date = new Date();
+		
+				// Define an array for month names
+				var months = [
+					"January", "February", "March", "April", "May", "June",
+					"July", "August", "September", "October", "November", "December"
+				];
+		
+				// Get the current day, month, and year
+				var day = date.getDate();
+				var month = months[date.getMonth()];
+				var year = date.getFullYear();
+		
+				// Format the date as "Month Day, Year"
+				var formattedDate = month + " " + day + ", " + year;
+		
+				// Display the date in the HTML element with id="current-date"
+				document.getElementById("current-date").innerText = formattedDate;
+			</script>
+	</body>
+</html>
