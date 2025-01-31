@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	 <!-- Link the CSS file -->
 	 <link rel="stylesheet" href="stylePotfolio.css">
+	
 		<link rel="stylesheet" href="assets/css/pictures.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -20,28 +21,45 @@
 					<div id="intro">
 						<h1>JAVA<br />
 	</h1>
-	  <b>User Management System with Angular and an API Backend</b> <br />
+	  <b>Projects 
+			 Java </b> <br />
 
  
 <div style="color:yellow;font-size:x-large;"> 
-	1. Backend:   - Create an API for managing users (add, view, update, delete). Delete means Inactive.<br />
+
+	<u><i><a href="#ProdCustSales">Product Customer Sales CRUD with mssql(Swing application)</a></i></u> </br> 
+
+	1.  Frontend & Database (Java and MSSQL): - Create an application with 3 main components.<br />
 	
-	   - Each user should have: ID, Name, Email, Role (dropdown), and Status (Active/Inactive).<br />
+	- Show a list of Customers with CRUD .<br />
+ 
+	- Show a list of Products with CRUD .<br />
+
+	- Show a list of Customers and Product Invoices Relation with CRUD .<br />
+
+
+	 
 	
-	   - Validate fields (e.g., Name, Role is required, Email must be valid).<br />
+	<br /><br />
+	<br />
+ 
+	<u><i><a href="#SpringFramework">SpringFramework(Console application)</a></i></u> </b></br>
 	
-	   <br /><br />
-	   <br />
 	
-	2.  Frontend (Angular): - Create a single page application with multiple components.<br />
+	2.(a) Spring:   - Implement a SpringFramework with cars to get details of given cars</br> with Springframework 
+	working with Beans：</br>
+	<u><i><a href="#Fizzbuzz">Fizzbuzz (Console application)</a></i></u> </b></br>
+		
+	2.(b) Fizzbuzz:   - Implement a FizzBuzz concept with  simple java file：</br>
+	<u><i><a href="#ConnectingMYSQL">ConnectingMYSQL(Console application)</a></i></u> </b></br>
+		 
+	2.(c) MYSQL:   - Implement a MYSQL  connection with Java</br>
+	<u><i><a href="#Email">Email Sending SMTP(utility applications)</a></i></u>  </b></br>
+
+	2.(d) EmailSending:   - USED SMTP and 2 way verification for sending mails</br>
+
 	
-	   - Show a list of users with search and filter options.<br />
-	
-	   - Add a form to create and edit users.<br />
-	
-	   - Validate the form (e.g., required fields, valid email).<br />
-	
-	   - Pagination and Sorting is required.	<br />	<p> </p>
+	<p> </p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -49,7 +67,7 @@
 </div>
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Angular Project</a>
+						<a href="index.html" class="logo">Java Projects</a>
 					</header>
 
 				<!-- Nav -->
@@ -63,7 +81,7 @@
 							<li class="active"><a href="PHP.html">PHP</a></li>
 							<li class="active"><a href="angular.html">Angular</a></li>
 
-						
+							
 						</ul>
 						<ul class="icons">
 						 	<li><a href="https://www.linkedin.com/in/sana-cs/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
@@ -75,23 +93,221 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
+							<article class="post featured" >
+								<header class="major" id="ProdCustSales">
 									<span class="date" id="current-date"></span>
-									<h2> USER MANGEMENT SYSTEM</h2>
-									<div style="font-family:cursive; color:red"> with Angular 17+ Frontend </br>
-										and Express.js  BackendAPI</br>
-									Small Data at Server</br>
+									<h2>Product Customer Sales</h2>
+									<div style="font-family:cursive; color:red"> Swing with MSSQL </br>
+										Classes like swing2prod, swing2customer, and swing2salesinvoice represent different</br>
+										 frames/windows in the application, each handling specific functionality or workflows.</br>
+										 Data-Handling Files: Files like Customer_details.java and Product_details.java</br>
+										 Swing offers components like JButton, JLabel, JTable, etc.,</br>
+										  to build interactive and functional user interfaces.</br>
 								</div>
+								<ul class="icons">
+								 	   <li><a href="https://github.com/SanaUber/emp_Prod_Cust_JAVA" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+							   </ul>
 								</header>
 							<video controls width="640" height="360">
-        <source src="images/usermgmtappSlow.mp4" type="video/mp4">
+        <source src="images/Employee_JAVA.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-								<div style="height: 800px;"></div>
+
+
+	
+								<div style="height: 80px;"></div>
+								 
+							</article>
+							<article class="post featured">
+								<header class="major"id="SpringFramework">
+									<span class="date" id="current-date"></span>
+									<h2> Implementing Spring with Beans</h2>
+									<div style="font-family:cursive; color:red"> with React Frontend </br>
+										Spring-based application with proper separation of concerns and use of dependency injection </br>
+										for managing objects.</br>
+<b>Application Start:</b>
+App.java is executed, creating a Spring ApplicationContext.</br>
+<b>Bean Retrieval:</b>
+<b>Beans (Pajero, Ferrari, etc.)</b> are retrieved from the Spring context.</br>
+<b>Method Calls:</b>
+Methods in these beans are invoked to print or handle car-specific details.</br>
+<b>Dependency Injection:</b>
+Dependencies like capacity and paint are injected using @Bean methods defined in Appconfig.</br>
+								</div>
+								<ul class="icons">
+									<li><a href="https://github.com/SanaUber/JAVA_Basic/tree/main/cars" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+						   </ul>
+								</header>
+							 
+	<img width="640" height="360"id="menu"src="images/springcars.jpg" alt="" />
+								
+
+	
+								<div style="height: 80px;"></div>
 								 
 							</article>
 
+
+							<article class="post featured">
+								<header class="major"id="Fizzbuzz">
+									<span class="date" id="current-date"></span>
+									<h2>  FizzBuzz</h2>
+									<div style="font-family:cursive; color:red">  Java console-based application </br>
+										<b>Java console application that demonstrates the use of the</b></br>
+										Java console-based application that determines
+										whether a user-provided number is divisible</br> 
+										by 3, 5, or 15, and displays appropriate messages.</br>
+			
+										It checks the divisibility of the number by 3, 5, or 15 using the modulus operator (%).</br>
+										Outputs the result:</br>
+										"buzzfizz divisible by 15" if divisible by 15.</br>
+										"fizz divisible by 3" if divisible by 3 (but not 15).</br>
+										"buzz divisible by 5" if divisible by 5 (but not 15).</br>
+										"not divisible by 3,5,15" if divisible by none.</br>
+								
+
+							
+  
+ 								<ul class="icons">
+									<li><a href="https://github.com/SanaUber/javafizzbuzzz" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+						   </ul>
+								</header>
+								<img width="640" height="360"id="menu"src="images/fizzbuzz.jpg" alt="" />
+								
+
+								
+
+	
+								<div style="height: 80px;"></div>
+								 
+							</article>
+
+
+
+
+
+
+
+
+
+							
+
+							<article class="post featured">
+								<header class="major"id="ConnectingMYSQL">
+									<span class="date" id="current-date"></span>
+									<h2> JDBC-based core Java console application</h2>
+									<div style="font-family:cursive; color:red"> Console Application </br>
+										JDBC-based core Java console application designed for basic CRUD operations on a MySQL database.</br>
+<b>JDBC Driver:</b>
+The application uses the com.mysql.cj.jdbc.Driver to establish a connection with the MySQL database. </br>
+It enables Java programs to communicate with MySQL.
+</br>
+<b> Prepared Statements:</b>
+Prepared statements are used for secure and efficient query execution.</br>
+They support parameterized queries for operations like INSERT, DELETE, and UPDATE.</br>
+<b>Query Execution:</b>  Queries are executed using methods like executeUpdate for modifying data and executeQuery</br>
+ for fetching results from the database.</br>
+<b>Result Handling:</b>
+The application retrieves and processes data using a ResultSet object,</br>
+iterating through rows to display database records.</br>
+<b>Dependencies Management:</b>
+The project relies on the mysql-connector-java-8.0.26.jar library to enable JDBC functionality </br>
+and manage database connections effectively.</br>
+								
+
+
+  
+
+  
+ 								<ul class="icons">
+									<li><a href="https://github.com/SanaUber/JAVA_Basic/tree/main/MysqlwithJAva/sqlproj/src/com/codewithsana" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+						   </ul>
+								</header>
+							 
+ 
+								
+
+	
+								<div style="height: 80px;"></div>
+								 
+							</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<article class="post featured">
+								<header class="major"id="Email">
+									<span class="date" id="current-date"></span>
+									<h2>  utility applications</h2>
+									<div style="font-family:cursive; color:red"> Console Application </br>
+										<b>Java console application that demonstrates the use of the</b></br>
+										 Java Mail API to send emails programmatically
+										 <b>Java Mail API classes:</b>
+										  for handling email properties, session creation,
+										   message handling, and email transport:</br>
+                 <b> SMTP Server Configuration:</b>
+                             Sets up the SMTP server (smtp.gmail.com) for Gmail with SSL encryption on port 465.</br>
+ 
+								
+
+
+  
+
+  
+ 								<ul class="icons">
+									<li><a href="https://github.com/SanaUber/JAVA_Basic/tree/main/email_sending" class="icon brands fa-github"target="_blank"><span class="label" >GitHub</span></a></li>
+						   </ul>
+								</header>
+							 
+	<img width="140" height="360"id="menu"src="images/mailApi.jpg" alt="" />
+								
+
+	
+								<div style="height: 80px;"></div>
+								 
+							</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
 						<!-- Posts -->
 						
 					 
