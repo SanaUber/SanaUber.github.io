@@ -73,4 +73,49 @@ div[style="height: 800px;"] {
     .responsive-container div {
         flex: 1 1 45%; /* Make items take up half the width */
     }
+
+
+/* Style for summary elements */
+summary {
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #222;
+    color: yellow;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Hover effect */
+  summary:hover {
+    background-color: #333;
+  }
+  
+  /* Style for the details content */
+  details {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    color: #f0f0f0;
+  }
+  
+  /* Nested details */
+  details details {
+    margin-left: 15px;
+    border-left: 2px solid #666;
+    padding-left: 10px;
+  }
+  
+  /* Optional: animate open/close */
+  details[open] > summary::after {
+    content: "▲";
+    float: right;
+  }
+  
+  summary::after {
+    content: "▼";
+    float: right;
+  }
+  
 }
